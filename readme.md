@@ -18,7 +18,10 @@ Executable file ==> test_executable_file.py
 
 report.html ==> consists of testrun passes/fails
 
-Execution command ==> pytest --html=report.html : Which will generate a report about the test pass/fail
+Execution command ==>
+pytest --html=report.html : Which will generate a report about the test pass/fail
+OR
+py.test test_executable.py -s
 
 NOTE:
 Import the requirements.txt using pip install -r requirements.txt
